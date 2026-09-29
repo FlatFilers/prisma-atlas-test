@@ -335,8 +335,8 @@ importers:
         version: 0.5.0
     devDependencies:
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 7.29.1
+        version: 7.29.1
 
   packages/adapter-ppg:
     dependencies:
@@ -930,8 +930,8 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       undici:
-        specifier: 7.4.0
-        version: 7.4.0
+        specifier: 7.29.1
+        version: 7.29.1
       zx:
         specifier: 8.4.1
         version: 8.4.1
@@ -5611,6 +5611,7 @@ packages:
   eslint@9.22.0:
     resolution: {integrity: sha512-9V/QURhsRN40xuHXWjV64yvrzMjcz7ZyNoF2jJFmy9j/SLk0u1OLSZgXi28MrXjymnjEGSR80WCdab3RGMDveQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -8425,8 +8426,8 @@ packages:
     resolution: {integrity: sha512-Vqs8HTzjpQXZeXdpsfChQTlafcMQaaIwnGwLam1wudSSjlJeQ3bw1j+TLPePgrCnCpUXx7Ba5Pdpf5OBih62NQ==}
     engines: {node: '>=20.18.1'}
 
-  undici@7.4.0:
-    resolution: {integrity: sha512-PUQM3/es3noM24oUn10u3kNNap0AbxESOmnssmW+dOi9yGwlUSi5nTNYl3bNbTkWOF8YZDkx2tCmj9OtQ3iGGw==}
+  undici@7.29.1:
+    resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
     engines: {node: '>=20.18.1'}
 
   unenv@2.0.0-rc.14:
@@ -15807,7 +15808,7 @@ snapshots:
 
   undici@7.14.0: {}
 
-  undici@7.4.0: {}
+  undici@7.29.1: {}
 
   unenv@2.0.0-rc.14:
     dependencies:
